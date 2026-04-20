@@ -1,61 +1,51 @@
 # Company-Research-
-size companies
 
-## Installation
+## Project Overview
 
-To install and set up the project, follow these steps:
+The Company-Research project is designed to analyze and provide insights into the size and characteristics of various companies. The project aims to assist researchers and analysts in understanding company dynamics and trends.
+
+## Features
+- Analyze company size and growth patterns
+- Generate reports on company characteristics
+- Visualize data through charts and graphs
+
+## Goals
+- Provide accurate and up-to-date company data
+- Facilitate easy access to company insights
+- Support decision-making processes for researchers and analysts
+
+## Installation Instructions
 
 ### Prerequisites
+- Python 3.8 or higher
+- pip package manager
 
-- Ensure you have Python 3.8 or higher installed.
-- Install Git to clone the repository.
-
-### Installation Steps
-
+### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Company-Research-.git
+   git clone https://github.com/yourusername/Company-Research.git
    ```
-
-2. Navigate into the project directory:
+2. Navigate to the project directory:
    ```bash
-   cd Company-Research-
+   cd Company-Research
    ```
-
-3. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   ```
-
-4. Activate the virtual environment:
-   - On Windows:
-     ```bash
-     .\venv\Scripts\activate
-     ```
-   - On macOS and Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-
-5. Install the required dependencies:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-### Configuration
+## Usage Examples
 
-- Copy the example configuration file and adjust settings as necessary:
-  ```bash
-  cp config.example.json config.json
-  ```
+To analyze a company's data, run the following command:
+```bash
+python analyze.py --company-name "Example Corp"
+```
 
-- Edit `config.json` to include your specific configuration details.
+## Contribution Guidelines
+We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
 
-### Running the Application
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- To start the application, run:
-  ```bash
-  python main.py
-  ```
-
-Ensure all steps are completed in a fresh environment to avoid conflicts with existing installations.
+## Contact
+For any inquiries, please contact us at [contact@companyresearch.com](mailto:contact@companyresearch.com).

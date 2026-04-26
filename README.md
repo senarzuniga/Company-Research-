@@ -41,6 +41,10 @@ To analyze a company's data, run the following command:
 python analyze.py --company-name "Example Corp"
 ```
 
+## API Documentation
+
+The API documentation is generated using Sphinx and can be found in the `docs` directory. To view the documentation, open the `index.html` file located in `docs/_build/html` in your web browser.
+
 ## Contribution Guidelines
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
 

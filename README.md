@@ -41,6 +41,20 @@ To analyze a company's data, run the following command:
 python analyze.py --company-name "Example Corp"
 ```
 
+## FAQ
+
+### What should I do if I encounter an error during installation?
+Ensure that you have Python 3.8 or higher and the pip package manager installed. Check that all dependencies in `requirements.txt` are installed correctly.
+
+### How can I contribute to the project?
+We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
+
+### Is there a way to visualize the data without using the command line?
+Currently, the project supports command-line operations only. However, you can export the data and use external tools for visualization.
+
+### Who can I contact for further questions?
+For any inquiries, please contact us at [contact@companyresearch.com](mailto:contact@companyresearch.com).
+
 ## Contribution Guidelines
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
 

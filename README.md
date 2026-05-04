@@ -41,6 +41,38 @@ To analyze a company's data, run the following command:
 python analyze.py --company-name "Example Corp"
 ```
 
+## Usage Scenarios
+
+### Scenario 1: Analyzing Growth Patterns
+
+**Objective:** Understand the growth patterns of a company over the last five years.
+
+**Input Data:** Historical revenue data for "Tech Innovators Inc."
+
+**Steps to Execute:**
+1. Prepare the data file `tech_innovators_revenue.csv` with columns `Year` and `Revenue`.
+2. Run the analysis script:
+   ```bash
+   python analyze.py --company-name "Tech Innovators Inc." --data-file tech_innovators_revenue.csv
+   ```
+
+**Expected Output:** A report detailing the annual growth rate and a graph illustrating revenue trends over the specified period.
+
+### Scenario 2: Comparing Company Characteristics
+
+**Objective:** Compare the characteristics of two companies in the tech industry.
+
+**Input Data:** Profile data for "Alpha Tech" and "Beta Solutions".
+
+**Steps to Execute:**
+1. Prepare the data files `alpha_tech_profile.csv` and `beta_solutions_profile.csv` with relevant company characteristics.
+2. Run the comparison script:
+   ```bash
+   python compare.py --company1 "Alpha Tech" --company2 "Beta Solutions" --data-file1 alpha_tech_profile.csv --data-file2 beta_solutions_profile.csv
+   ```
+
+**Expected Output:** A comparative analysis report highlighting key differences and similarities in company characteristics.
+
 ## Contribution Guidelines
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
 

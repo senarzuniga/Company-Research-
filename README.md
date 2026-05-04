@@ -41,6 +41,32 @@ To analyze a company's data, run the following command:
 python analyze.py --company-name "Example Corp"
 ```
 
+## Advanced Usage Scenarios
+
+### Scenario 1: Analyzing Multiple Companies
+To analyze multiple companies at once, you can pass a list of company names:
+```bash
+python analyze.py --company-names "Example Corp, Another Corp, Third Corp"
+```
+This command will generate a report for each company listed.
+
+### Scenario 2: Custom Report Generation
+If you need a custom report format, use the `--report-format` option:
+```bash
+python analyze.py --company-name "Example Corp" --report-format "detailed"
+```
+This will generate a detailed report including growth trends and market analysis.
+
+### Scenario 3: Edge Case - No Data Available
+In cases where no data is available for a company, the script will notify you:
+```bash
+python analyze.py --company-name "Unknown Corp"
+```
+Output:
+```
+No data available for Unknown Corp. Please check the company name and try again.
+```
+
 ## Contribution Guidelines
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
 

@@ -41,6 +41,10 @@ To analyze a company's data, run the following command:
 python analyze.py --company-name "Example Corp"
 ```
 
+## Continuous Integration
+
+This project uses GitHub Actions for continuous integration. The CI pipeline is triggered on every push and pull request to the main branch. It installs dependencies and runs tests using Pytest to ensure code quality and functionality.
+
 ## Contribution Guidelines
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
 
